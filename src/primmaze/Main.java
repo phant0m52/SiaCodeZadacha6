@@ -1,2 +1,12 @@
-package primmaze;public class Main {
+package primmaze;
+
+import javax.swing.SwingUtilities;
+import primmaze.gui.MainFrame;
+
+public class Main {
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(() -> {
+            new MainFrame().setVisible(true);
+        });
+    }
 }
