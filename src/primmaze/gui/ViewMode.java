@@ -1,2 +1,6 @@
-package primmaze.gui;public class ViewMode {
+package primmaze.gui;
+
+public enum ViewMode {
+    THIN,
+    THICK
 }
